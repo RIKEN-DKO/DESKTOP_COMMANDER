@@ -1,0 +1,110 @@
+{
+  "metadataSchema": [
+    {
+      "number": 1,
+      "label": "Measurer",
+      "requirement": "oneRequired",
+      "forms": [
+        {
+          "label": "U number",
+          "type": "xsd:string",
+          "note": "U number of measurer"
+        },
+        {
+          "label": "name",
+          "type": "xsd:string",
+          "note": "Name of measurer"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "Data Owner",
+      "requirement": "oneRequired",
+      "forms": [
+        {
+          "label": "U number",
+          "type": "xsd:string",
+          "note": "U number of data owner"
+        },
+        {
+          "label": "name",
+          "type": "xsd:string",
+          "note": "Name of data owner"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "Co-measurer",
+      "requirement": "optional",
+      "forms": [
+        {
+          "label": "name",
+          "type": "xsd:string",
+          "note": "Name of co-measurer"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "Instrument id",
+      "requirement": "specified",
+      "forms": [
+        {
+          "label": "instrument id",
+          "type": "xsd:string",
+          "note": "id of instrument"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "Instrument name",
+      "requirement": "specified",
+      "forms": [
+        {
+          "label": "instrument name",
+          "type": "xsd:string",
+          "note": "Name of instrument"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "Experiment",
+      "requirement": "required",
+      "forms": [
+        {
+          "label": "experiment name or ID",
+          "type": "xsd:string",
+          "note": "experiment name or identifier"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "Measurement condition",
+      "requirement": "optional",
+      "forms": [
+        {
+          "label": "Measurement condition",
+          "type": "xsd:string",
+          "note": "Text description of measurement condition"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "Sample",
+      "requirement": "optional",
+      "forms": [
+        {
+          "label": "Sample",
+          "type": "xsd:string",
+          "note": "Text description of sample"
+        }
+      ]
+    }
+  ]
+}
